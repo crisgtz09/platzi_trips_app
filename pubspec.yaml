@@ -94,6 +94,10 @@ flutter:
     - assets/img/canasta.jpg
     - assets/img/paisaje.jpg
     - assets/img/wallpaper.jpg
+    - assets/img/nieve1.png
+    - assets/img/nieve2.jpg
+    - assets/img/nieve3.jpg
+    - assets/img/doctor.jpg
 
   fonts:
     - family: inconsolata

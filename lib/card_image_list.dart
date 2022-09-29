@@ -13,9 +13,9 @@ class CardImageList extends StatelessWidget{
         padding: const EdgeInsets.all(25.0),
         scrollDirection: Axis.horizontal,
         children: <Widget>[
-          CardImage("assets/img/canasta.jpg"),
-          CardImage("assets/img/paisaje.jpg"),
-          CardImage("assets/img/wallpaper.jpg"),
+          CardImage("assets/img/nieve1.png"),
+          CardImage("assets/img/nieve2.jpg"),
+          CardImage("assets/img/nieve3.jpg"),
         ],
       ),
 

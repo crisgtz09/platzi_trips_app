@@ -88,10 +88,10 @@ class DescriptionPlace extends StatelessWidget {
         Row (
           children: <Widget>[
             star,
-            star_border,
-            star_border,
-            star_border,
-            star_border
+            star,
+            star,
+            star,
+            star
           ],
         )
       ],
