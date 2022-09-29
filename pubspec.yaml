@@ -91,6 +91,9 @@ flutter:
   # see https://flutter.dev/custom-fonts/#from-packages
   assets:
     - assets/img/PhotoImg.jpg
+    - assets/img/canasta.jpg
+    - assets/img/paisaje.jpg
+    - assets/img/wallpaper.jpg
 
   fonts:
     - family: inconsolata

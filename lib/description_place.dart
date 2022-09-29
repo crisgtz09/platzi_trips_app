@@ -57,7 +57,7 @@ class DescriptionPlace extends StatelessWidget {
       child: Text(
       descriptionPlace,
       style: const TextStyle(
-        fontFamily: "Inconsolata",
+        fontFamily: "Lato",
         fontSize: 16.0,
         fontWeight: FontWeight.bold,
         color: Color(0xff56575a)
