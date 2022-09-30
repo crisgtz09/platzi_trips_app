@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'description_place.dart';
-import 'review_list.dart';
-
-import 'header_appbar.dart';
+import 'package:platzi_trips_app/platzi_trips_cupertino.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,19 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
 
-      home: Scaffold(
-        body: Stack(
-          children: <Widget>[
-            ListView(
-              children: <Widget>[
-                DescriptionPlace("Nieve", 5,"La pinchi nieve no hace daño, asi que puedes chingarte una sin pedos"),
-                ReviewList()
-              ],
-            ),
-            HeaderAppBar()
-          ],
-        ),
-      )
+      home: PlatziTripsCupertino()
     );
   }
 }
