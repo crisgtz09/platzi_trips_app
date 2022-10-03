@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'floating_action_button_pink.dart';
+import 'package:platzi_trips_app/widgets/floating_action_button_green.dart';
 class CardImage extends StatelessWidget{
   String pathImage = "assets/img/wallpaper.jpg";
 
@@ -37,7 +37,7 @@ class CardImage extends StatelessWidget{
       alignment: Alignment(0.9,1.1),
       children: <Widget>[
         card,
-        FloatingActionButtonPink()
+        FloatingActionButtonGreen()
       ],
     );
   }

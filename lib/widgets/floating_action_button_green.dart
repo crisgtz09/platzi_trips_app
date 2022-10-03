@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
-class FloatingActionButtonPink extends StatefulWidget {
+class FloatingActionButtonGreen extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
     // TODO: implement createState
-    return _FloatingActionButtonPink();
+    return _FloatingActionButtonGreen();
   }
 
 }
 
-class _FloatingActionButtonPink extends State<FloatingActionButtonPink> {
+class _FloatingActionButtonGreen extends State<FloatingActionButtonGreen> {
 
   bool _pressed = false;
 
@@ -24,7 +24,7 @@ class _FloatingActionButtonPink extends State<FloatingActionButtonPink> {
   Widget build(BuildContext context) {
     // TODO: implement build
     return FloatingActionButton(
-      backgroundColor: Color(0xffEA1281),
+      backgroundColor: Color(0xff0ff31a),
       mini: true,
       tooltip: "Fav",
       onPressed: onPresssedFav,
